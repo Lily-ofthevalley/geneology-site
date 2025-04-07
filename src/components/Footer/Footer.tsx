@@ -1,5 +1,13 @@
+import Copyright from "./Copyright";
+import FooterInfo from "./FooterInfo";
+
 const Footer = () => {
-  return <div></div>;
+  return (
+    <>
+      <FooterInfo />
+      <Copyright />
+    </>
+  );
 };
 
 export default Footer;
