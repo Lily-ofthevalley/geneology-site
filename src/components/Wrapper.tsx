@@ -4,9 +4,9 @@ import { Outlet } from "react-router";
 
 const Wrapper = () => {
   return (
-    <div className="flex h-screen">
+    <div className="flex flex-col h-screen">
       <Navbar />
-      <main className="flex-1 p-4 bg-[#F4F5F9] dark:bg-gray-800 overflow-auto text-black dark:text-white">
+      <main className="flex p-4 overflow-auto text-black ">
         <Outlet />
       </main>
       <Footer />
