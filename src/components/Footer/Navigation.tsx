@@ -2,14 +2,19 @@ import { NavLink } from "react-router";
 
 const Navigation = () => {
   return (
-    <div className="p-4">
-      <h1 className="text-xl">navigation</h1>
-      <div className="flex flex-col items-center">
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/search">Search</NavLink>
-        <NavLink to="/familytree">FamilyTree</NavLink>
-        <NavLink to="/graves">Graves</NavLink>
-      </div>
+    <div className="flex flex-col items-center p-4">
+      <NavLink to="/" className={"mb-2 hover:underline"}>
+        Home
+      </NavLink>
+      <NavLink to="/search" className={"mb-2 hover:underline"}>
+        Search
+      </NavLink>
+      <NavLink to="/familytree" className={"mb-2 hover:underline"}>
+        FamilyTree
+      </NavLink>
+      <NavLink to="/graves" className={"hover:underline"}>
+        Graves
+      </NavLink>
     </div>
   );
 };

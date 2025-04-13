@@ -2,9 +2,8 @@ import Navigation from "./Navigation";
 
 const FooterInfo = () => {
   return (
-    <div className="bg-blue-800 flex justify-evenly text-white">
+    <div className="bg-gray-100 flex justify-evenly text-gray-800 p-3">
       <Navigation />
-      <div className="p-4 self-end">Contact</div>
     </div>
   );
 };
